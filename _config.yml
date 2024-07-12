@@ -31,6 +31,16 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
+
+
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - node_modules
+
+
+
 plugins:
   - jekyll-feed
 
